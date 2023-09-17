@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/telaFundo.jpg);
+    background-repeat: repeat;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin:10px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: white;
+    color: brown;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 960px;
+}
+
+main section{
+    padding: 20px;
+    background-color: rgb(196, 196, 196);
+}
+section h1{
+    text-align: center;
+    color: brown;
+    
+}
+
+section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li{
+    margin: 20px auto;
+    width: 750px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+li img{
+    max-width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.descricao{
+    font-size: 14px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.preco{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.contatos{
+    position: relative;
+    bottom: 10px;
+}
+
+.redesSociais{
+    position: relative;
+    margin: 0px 50px;
+    top: 20px;
+}
+
+.redesSociais img{
+    height: 30px;
+    margin: 10px;
+}
